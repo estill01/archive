@@ -1,0 +1,28 @@
+# Agendo::Systems
+
+===========================================
+	General Organization
+-------------------------------------------
+Agendo is comprised of multiple interacting systems.
+Each system has been separated out into its own service/application.
+
+===========================================
+	Gemsets
+-------------------------------------------
+Each Agendo sub-system has its own Gemset.
+These system-specific Gemsets are prefaced by 'agendo' followed by the name as the sub-system they support.
+
+Eg. The 'useraccounts' sub-system uses gemset 'agendo_useraccounts'.
+
+These sub-system specific Gemsets prototypically inherit from the 'agendo' gemset.
+
+===========================================
+	Sub-Systems
+-------------------------------------------
+	1. useraccounts		=>	handles all user account related interactions
+	2. commandcenter	=>	user-facing service navigation interface
+	3. plannr
+	4. predicto
+	5. goalie
+	6.  
+
